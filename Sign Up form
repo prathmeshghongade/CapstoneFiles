@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Form</title>
+    <style>
+      body {
+        font-family: helvetica;
+      }
+      .form {
+        background-color: #f3f3f3;
+        padding: 30px;
+      }
+      .form-row {
+        display: flex;
+        margin: 20px 0;
+      }
+      .form-label {
+        width: 150px;
+        font-weight: bold;
+      }
+      .form-input {
+        flex: 1 1 auto;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="form">
+      <h2>Sign Up</h2>
+      <div class="form-row">
+        <label class="form-label">First Name:</label>
+        <input type="text" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label class="form-label">Last Name:</label>
+        <input type="text" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label class="form-label">Email:</label>
+        <input type="email" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label class="form-label">Contact:</label>
+        <input type="number" class="form-input" />
+      </div>
+      <div class="form-row">
+        <label class="form-label">Password:</label>
+        <input type="password" class="form-input" />
+      </div>
+    </div>
+  </body>
+</html>
